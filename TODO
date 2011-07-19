@@ -1,0 +1,20 @@
+TODO:
+
+FileRef is broken? Reference counting?
+String: Use UTF16/32 representation?
+
+tbytevector.h:
+&operator=
+&operator!=
+fromCString
+
+tstring.h:
+operator=
+Fix: toUTF16z
+
+tfile.h:
+%typemap(out) FileName {
+
+tstringlist.h:
+StringList(const ByteVectorList &vl, String::Type t = String::Latin1);
+
